@@ -12,5 +12,17 @@ public class User {
     }
 
     private Integer id;
+private String haha;
 
+    public String getHaha() {
+        return haha;
+    }
+
+    public void setHaha(String haha) {
+        this.haha = haha;
+    }
+
+    public User(String haha) {
+        this.haha = haha;
+    }
 }
